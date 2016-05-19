@@ -1,6 +1,77 @@
 <div class="col-lg">
   <div class="col-sm-12">
     <div class="panel">
+
+      <!-- Circular Form Wizard -->
+      <!--===================================================-->
+      <div id="demo-cir-wz">
+        <div class="wz-heading">
+
+          <!--Progress bar-->
+          <div class="progress progress-sm progress-light-base">
+            <div class="progress-bar progress-bar-primary" style="width: 48%; margin: 0px 12.5%;"></div>
+          </div>
+
+          <!--Nav-->
+          <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+          <ul class="wz-nav-off  wz-steps">
+            <li class="col-xs-2 ">
+              <a title="" class="add-tooltip" data-original-title="发起融资" aria-expanded="false">
+                <span class="icon-wrap icon-wrap-sm icon-circle bg-info">
+														<span class="wz-icon fa fa-2x wz-icon icon-txt text-bold">1</span>
+														<i class="wz-icon-done fa fa-check fa-2x"></i>
+													</span>
+              </a>
+            </li>
+            <li class="col-xs-2">
+              <a title="" class="add-tooltip" data-original-title="融资买入" aria-expanded="false">
+													<span class="icon-wrap icon-wrap-sm icon-circle bg-info">
+														<span class="wz-icon fa fa-2x wz-icon icon-txt text-bold">2</span>
+														<i class="wz-icon-done fa fa-check fa-2x"></i>
+													</span>
+              </a>
+            </li>
+            <li class="col-xs-2">
+              <a title="" class="add-tooltip" data-original-title="融资确认" aria-expanded="false">
+													<span class="icon-wrap icon-wrap-sm icon-circle bg-info">
+														<span class="wz-icon fa fa-2x wz-icon icon-txt text-bold">3</span>
+														<i class="wz-icon-done fa fa-check fa-2x"></i>
+													</span>
+              </a>
+            </li>
+            <li class="col-xs-2 active">
+              <a title="" class="add-tooltip" data-original-title="融资发放" aria-expanded="false">
+													<span class="icon-wrap icon-wrap-sm icon-circle bg-info">
+														<span class="wz-icon fa fa-2x wz-icon icon-txt text-bold">4</span>
+														<i class="wz-icon-done fa fa-check fa-2x"></i>
+													</span>
+              </a>
+            </li>
+            <li class="col-xs-2">
+              <a title="" class="add-tooltip" data-original-title="融资归还" aria-expanded="false">
+													<span class="icon-wrap icon-wrap-sm icon-circle bg-warning">
+														<span class="wz-icon fa fa-2x wz-icon icon-txt text-bold">5</span>
+														<i class="wz-icon-done fa fa-check fa-2x"></i>
+													</span>
+              </a>
+            </li>
+            <li class="col-xs-2">
+              <a title="" class="add-tooltip" data-original-title="归还确认" aria-expanded="false">
+													<span class="icon-wrap icon-wrap-sm icon-circle bg-warning">
+														<span class="wz-icon fa fa-2x wz-icon icon-txt text-bold">6</span>
+														<i class="wz-icon-done fa fa-check fa-2x"></i>
+													</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!--===================================================-->
+      <!-- End Circular Form Wizard -->
+
+    </div>
+    <div class="panel">
       <div class="panel-heading">
         <h3 class="panel-title">融资信息</h3>
       </div>
@@ -201,10 +272,8 @@
         </div>
 
         <div class="panel-footer text-right">
-          <a href="/funder/my_list">
-            <button class="btn btn-success" type="submit">确认放款</button>
-            <button class="btn btn-info" type="submit">返回</button>
-          </a>
+            <a href="/funder/my_list" class="btn btn-success">确认放款</a>
+            <a href="/funder/my_list" class="btn btn-info">返回</a>
         </div>
 
       </form>
