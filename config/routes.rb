@@ -23,6 +23,7 @@ Rails.application.routes.draw do
     get 'grant_fund', on: :collection
     get 'confirm_return', on: :collection
     get 'return_status', on: :collection
+    get 'finish_status', on: :collection
   end
 
   root to: "enterprise#request_list"

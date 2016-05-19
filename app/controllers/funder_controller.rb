@@ -24,4 +24,8 @@ class FunderController < ApplicationController
   def return_status
 
   end
+
+  def finish_status
+
+  end
 end

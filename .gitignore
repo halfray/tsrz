@@ -21,3 +21,5 @@
 /config/database.yml
 /config/secrets.yml
 .DS_Store
+.idea/outguard-frontend.iml
+.idea/workspace.xml
